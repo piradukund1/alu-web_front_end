@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ALU responsive design practice project">
+  <title>ALU — Make opportunities accessible</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="04-styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container container">
+      <a class="header-logo" href="#top" aria-label="ALU home">ALU<span>.</span></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" aria-label="Toggle navigation menu">
+      <label class="menu-icon" for="menu-btn" aria-label="Open navigation menu"><span class="navicon"></span></label>
+
+      <nav class="navbar-menu" aria-label="Main navigation">
+        <ul class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#works">Our work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="section-hero">
+      <div class="hero-homepage">
+        <div class="section-inner container">
+          <div class="hero-copy">
+            <p class="eyebrow">Africa Leadership University</p>
+            <h1>Make opportunities accessible to everyone, everywhere.</h1>
+            <p>We use technology, education, and entrepreneurship to help people build better futures.</p>
+            <a class="button" href="#about">Discover our mission</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Who we are</p>
+          <h2>Ideas that create impact</h2>
+          <p>We connect people with meaningful opportunities in employment, education, skills development, and entrepreneurship.</p>
+        </div>
+        <div class="row about-row">
+          <div class="col-1-2">
+            <img class="about-image" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80" srcset="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=380&q=80 380w, https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=853&q=80 853w, https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80 1200w" sizes="(max-width: 767px) 100vw, 40vw" alt="Team members working together" loading="lazy">
+          </div>
+          <div class="col-1-2 about-copy">
+            <h3>Learning by doing</h3>
+            <p>Our community learns through real challenges, collaboration, and practical projects that respond to the needs of our communities.</p>
+            <a class="text-link" href="#works">Explore our work →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-news" id="news">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Latest updates</p>
+          <h2>News and stories</h2>
+        </div>
+        <div class="row latest-news">
+          <article class="col-1-3 card">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" srcset="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=380&q=80 380w, https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=853&q=80 853w, https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80 1200w" sizes="(max-width: 767px) 100vw, 33vw" alt="Students collaborating around a table" loading="lazy">
+            <div class="card-content"><p class="eyebrow">Community</p><h3>Building ideas together</h3><p>Small teams can create meaningful change when they share knowledge and take action.</p><a class="text-link" href="#contact">Read story →</a></div>
+          </article>
+          <article class="col-1-3 card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80" srcset="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=380&q=80 380w, https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=853&q=80 853w, https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80 1200w" sizes="(max-width: 767px) 100vw, 33vw" alt="Person learning with a laptop" loading="lazy">
+            <div class="card-content"><p class="eyebrow">Technology</p><h3>Skills for the future</h3><p>Digital skills help people find new paths to learning, work, and entrepreneurship.</p><a class="text-link" href="#contact">Read story →</a></div>
+          </article>
+          <article class="col-1-3 card">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80" srcset="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=380&q=80 380w, https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=853&q=80 853w, https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80 1200w" sizes="(max-width: 767px) 100vw, 33vw" alt="University students walking on campus" loading="lazy">
+            <div class="card-content"><p class="eyebrow">Education</p><h3>Opportunity through education</h3><p>Access to learning opens doors and empowers people to contribute to their communities.</p><a class="text-link" href="#contact">Read story →</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-works" id="works">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What we do</p>
+          <h2>Turning purpose into progress</h2>
+        </div>
+        <div class="row works-row">
+          <article class="col-1-3 card-work">
+            <div class="card-inner"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Laptop used for digital learning"><h3 class="card-title"><a href="#contact">Digital skills</a></h3></div>
+          </article>
+          <article class="col-1-3 card-work">
+            <div class="card-inner"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80" alt="Team working on a project"><h3 class="card-title"><a href="#contact">Entrepreneurship</a></h3></div>
+          </article>
+          <article class="col-1-3 card-work">
+            <div class="card-inner"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" alt="Students on campus"><h3 class="card-title"><a href="#contact">Education</a></h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">Get involved</p>
+        <h2>Let's create opportunities together.</h2>
+        <p>Have a question or an idea? We'd love to hear from you.</p>
+        <a class="button button-light" href="mailto:hello@example.com">Contact us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <a class="footer-logo" href="#top">ALU<span>.</span></a>
+      <p class="footer-note">Making opportunities accessible to everyone, everywhere.</p>
+      <ul class="social nav" aria-label="Social links">
+        <li><a href="https://www.linkedin.com/" rel="noreferrer">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/" rel="noreferrer">Instagram</a></li>
+        <li><a href="https://www.youtube.com/" rel="noreferrer">YouTube</a></li>
+      </ul>
+      <ul class="footer-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="copyright">© 2026 ALU Responsive Design Practice</p>
+    </div>
+  </footer>
+</body>
+</html>
